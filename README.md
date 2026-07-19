@@ -1,4 +1,6 @@
-# Cross-subject EEG affect: an honest negative
+<p align="center">
+  <img src="./assets/header.svg" alt="eeg-affect-honest-negatives — six pre-registered spikes, negative results reported as such" width="100%">
+</p>
 
 Can EEG predict how someone *felt* — their self-reported valence and arousal — for a person
 the model has never seen?
@@ -26,6 +28,11 @@ Every row is GroupKFold-5 **by subject** (no subject appears in both train and t
 DEAP's 0.79 accuracy looks respectable until you notice the high-class F1 is exactly **0.00** —
 the model predicts the majority class for every trial and collects the base rate. This is why
 the primary metric here is minority/high-class F1, never accuracy.
+
+
+<p align="center">
+  <img src="./assets/chance-ceiling.svg" alt="Diverging bar chart of accuracy minus majority-class baseline in percentage points. Clip-identity decoding scores +7.76 to +20.24. Affect prediction ranges from +4.05 down to -2.70, clustered around zero." width="100%">
+</p>
 
 ## The finding worth arguing about
 
