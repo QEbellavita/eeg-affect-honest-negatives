@@ -1,0 +1,27 @@
+{
+  "valence": {
+    "acc_mean": 0.7919047619047619,
+    "acc_std": 0.05372280200978272,
+    "macro_f1_mean": 0.4414374608758996,
+    "macro_f1_std": 0.01658532240778566,
+    "majority_baseline": 0.78984375,
+    "n_trials": 1280,
+    "eval": "GroupKFold(5) by subject"
+  },
+  "arousal": {
+    "acc_mean": 0.7676190476190475,
+    "acc_std": 0.03077927785992113,
+    "macro_f1_mean": 0.4340955673199325,
+    "macro_f1_std": 0.009859644559592814,
+    "majority_baseline": 0.7671875,
+    "n_trials": 1280,
+    "eval": "GroupKFold(5) by subject"
+  },
+  "eval": "GroupKFold(5) by subject (subject-independent / LOSO-style)",
+  "n_features": 181,
+  "leakage_free": true,
+  "synthetic_fallback": false,
+  "label_threshold": 5.0,
+  "lit_reference": "DEAP subject-independent binary valence/arousal ~55-65%",
+  "caveat": "subject-independent is HARD; within-subject/random-trial splits leak subject identity and inflate to ~80-95%"
+}

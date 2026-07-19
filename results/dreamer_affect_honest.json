@@ -1,0 +1,27 @@
+{
+  "valence": {
+    "acc_mean": 0.5933333333333334,
+    "acc_std": 0.02030629653610784,
+    "macro_f1_mean": 0.46167010185483964,
+    "macro_f1_std": 0.060226186361631094,
+    "majority_baseline": 0.606280193236715,
+    "n_trials": 414,
+    "eval": "GroupKFold(5) by subject"
+  },
+  "arousal": {
+    "acc_mean": 0.538888888888889,
+    "acc_std": 0.04527010841658527,
+    "macro_f1_mean": 0.5004331917487455,
+    "macro_f1_std": 0.07827083046729091,
+    "majority_baseline": 0.5628019323671497,
+    "n_trials": 414,
+    "eval": "GroupKFold(5) by subject"
+  },
+  "eval": "GroupKFold(5) by subject (subject-independent / LOSO-style)",
+  "n_features": 79,
+  "leakage_free": true,
+  "synthetic_fallback": false,
+  "label_threshold": 3.0,
+  "replaces": "amigos/train_dreamer.py (random train_test_split leaks subject identity)",
+  "lit_reference": "DREAMER subject-independent binary valence/arousal ~60-70%"
+}

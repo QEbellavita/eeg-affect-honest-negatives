@@ -1,0 +1,13 @@
+# Datasets and derived caches are never redistributed — see README.
+data/
+*.npz
+*.npy
+*.mat
+*.pkl
+*.zip
+*.xls
+*.xlsx
+.venv*/
+__pycache__/
+*.pyc
+.pytest_cache/

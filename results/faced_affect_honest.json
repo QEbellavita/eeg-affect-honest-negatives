@@ -1,0 +1,164 @@
+{
+  "step1_validation": {
+    "clip_binary_raw": {
+      "acc_mean": 0.5822222222222222,
+      "acc_std": 0.01725226993474291,
+      "macro_f1_mean": 0.5804130339073235,
+      "macro_f1_std": 0.018583461479651543,
+      "high_class_f1_mean": 0.5970262509093255,
+      "high_class_f1_std": 0.020915942753026266,
+      "majority_baseline": 0.5,
+      "n": 2952,
+      "eval": "GroupKFold(5) by subject"
+    },
+    "clip_9class_raw": {
+      "acc_mean": 0.22042857142857142,
+      "acc_std": 0.014023304219209174,
+      "macro_f1_mean": 0.2076453621337258,
+      "macro_f1_std": 0.015961003566592143,
+      "high_class_f1_mean": 0.2076453621337258,
+      "high_class_f1_std": 0.015961003566592143,
+      "majority_baseline": 0.14285714285714285,
+      "n": 3444,
+      "eval": "GroupKFold(5) by subject"
+    },
+    "clip_binary_runnorm": {
+      "acc_mean": 0.6404444444444444,
+      "acc_std": 0.019965759656020498,
+      "macro_f1_mean": 0.6403649953340651,
+      "macro_f1_std": 0.02001012197060925,
+      "high_class_f1_mean": 0.643202613102155,
+      "high_class_f1_std": 0.018032732356402435,
+      "majority_baseline": 0.5,
+      "n": 2952,
+      "eval": "GroupKFold(5) by subject"
+    },
+    "clip_9class_runnorm": {
+      "acc_mean": 0.3452261904761905,
+      "acc_std": 0.015473003334826324,
+      "macro_f1_mean": 0.33659289585392954,
+      "macro_f1_std": 0.015660901424727754,
+      "high_class_f1_mean": 0.33659289585392954,
+      "high_class_f1_std": 0.015660901424727754,
+      "majority_baseline": 0.14285714285714285,
+      "n": 3444,
+      "eval": "GroupKFold(5) by subject"
+    },
+    "pass": true
+  },
+  "step2_ceiling": {
+    "valence": {
+      "raw": {
+        "acc_mean": 0.5644404761904762,
+        "acc_std": 0.028869074619525915,
+        "macro_f1_mean": 0.5528724517906686,
+        "macro_f1_std": 0.026206659610741926,
+        "high_class_f1_mean": 0.48601256226723033,
+        "high_class_f1_std": 0.029581211168207996,
+        "majority_baseline": 0.5670731707317073,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      },
+      "calibrated": {
+        "acc_mean": 0.6076190476190477,
+        "acc_std": 0.012090925365350502,
+        "macro_f1_mean": 0.5989633868843468,
+        "macro_f1_std": 0.014873553145288375,
+        "high_class_f1_mean": 0.5412701361851123,
+        "high_class_f1_std": 0.027395199964037876,
+        "majority_baseline": 0.5670731707317073,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      },
+      "high_pct": 0.4329268292682927
+    },
+    "arousal": {
+      "raw": {
+        "acc_mean": 0.5358452380952381,
+        "acc_std": 0.026811426812270747,
+        "macro_f1_mean": 0.5239340274964693,
+        "macro_f1_std": 0.02147253681381328,
+        "high_class_f1_mean": 0.5930051492877736,
+        "high_class_f1_std": 0.04811957024686209,
+        "majority_baseline": 0.539198606271777,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      },
+      "calibrated": {
+        "acc_mean": 0.5442023809523808,
+        "acc_std": 0.021235893009888658,
+        "macro_f1_mean": 0.5367366014604861,
+        "macro_f1_std": 0.022101612858490046,
+        "high_class_f1_mean": 0.5941224074051892,
+        "high_class_f1_std": 0.020568503029908834,
+        "majority_baseline": 0.539198606271777,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      },
+      "high_pct": 0.539198606271777
+    }
+  },
+  "step3_unseen_video": {
+    "valence": {
+      "condition_a_seen": {
+        "acc_mean": 0.5644404761904762,
+        "acc_std": 0.028869074619525915,
+        "macro_f1_mean": 0.5528724517906686,
+        "macro_f1_std": 0.026206659610741926,
+        "high_class_f1_mean": 0.48601256226723033,
+        "high_class_f1_std": 0.029581211168207996,
+        "majority_baseline": 0.5670731707317073,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      },
+      "condition_b_unseen": {
+        "acc_mean": 0.5401071428571427,
+        "acc_std": 0.04113976199501892,
+        "macro_f1_mean": 0.5247104107052997,
+        "macro_f1_std": 0.044880365397161816,
+        "high_class_f1_mean": 0.4525419846173452,
+        "high_class_f1_std": 0.07901397051068407,
+        "majority_baseline": 0.5670731707317073,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      }
+    },
+    "arousal": {
+      "condition_a_seen": {
+        "acc_mean": 0.5358452380952381,
+        "acc_std": 0.026811426812270747,
+        "macro_f1_mean": 0.5239340274964693,
+        "macro_f1_std": 0.02147253681381328,
+        "high_class_f1_mean": 0.5930051492877736,
+        "high_class_f1_std": 0.04811957024686209,
+        "majority_baseline": 0.539198606271777,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      },
+      "condition_b_unseen": {
+        "acc_mean": 0.5148452380952382,
+        "acc_std": 0.03892666188705287,
+        "macro_f1_mean": 0.5015654408431269,
+        "macro_f1_std": 0.04012184658098601,
+        "high_class_f1_mean": 0.5699013291319576,
+        "high_class_f1_std": 0.04929379660776929,
+        "majority_baseline": 0.539198606271777,
+        "n": 3444,
+        "eval": "GroupKFold(5) by subject"
+      }
+    }
+  },
+  "verdict": {
+    "verdict": "NEGATIVE",
+    "rationale": "Condition-B valence hiF1=0.453 <=0.45 or within noise of majority (0.540 vs 0.567); ceiling holds at N=123."
+  },
+  "label_threshold": 3.5,
+  "representation": "per-(subject,video) mean-over-seconds DE, 160-dim",
+  "ceiling_reference": {
+    "DEAP_valence_hiF1": 0.0,
+    "DREAMER_arousal_hiF1": 0.4
+  },
+  "leakage_free": true,
+  "synthetic_fallback": false,
+  "protocol": "HONEST_AFFECT_FACED.md"
+}
