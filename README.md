@@ -2,7 +2,7 @@
   <img src="./assets/header.svg" alt="eeg-affect-honest-negatives — six pre-registered spikes, negative results reported as such" width="100%">
 </p>
 
-<p align="center">[![tests](https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml/badge.svg)](https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml)</p>
+<p align="center"><a href="https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml"><img src="https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml/badge.svg" alt="tests"></a></p>
 
 Can EEG predict how someone *felt* — their self-reported valence and arousal — for a person
 the model has never seen?
