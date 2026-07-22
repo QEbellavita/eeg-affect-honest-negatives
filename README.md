@@ -119,6 +119,11 @@ reproducible without the multi-gigabyte raw signals. That is accurate, and the c
 create them — but the caches themselves are derived dataset content, so none are published here.
 Regenerate them from the raw corpora you have licensed.
 
+## Citing
+
+If you use these findings, cite via the repo's [CITATION.cff](CITATION.cff) (GitHub's "Cite
+this repository" button), or the Zenodo DOI once archived.
+
 ## Licence
 
 MIT — see [LICENSE](LICENSE). It covers the code and documents in this repository and nothing

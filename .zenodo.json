@@ -1,0 +1,18 @@
+{
+  "title": "eeg-affect-honest-negatives: pre-registered negative results for subject-independent EEG affect prediction",
+  "description": "Six pre-registered spikes testing whether EEG can predict self-reported valence/arousal for a subject the model has never seen. Across DEAP, DREAMER, and FACED (N=123), subject-independent EEG affect lands at the majority-class baseline — no model was committed from any of these runs. The repository is the record: pre-registrations, code, metrics, verdicts.",
+  "creators": [
+    { "name": "Switzer, Belinda" }
+  ],
+  "license": "MIT",
+  "upload_type": "dataset",
+  "keywords": [
+    "eeg",
+    "affective-computing",
+    "negative-results",
+    "pre-registration",
+    "deap",
+    "dreamer",
+    "faced"
+  ]
+}
