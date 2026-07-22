@@ -8,6 +8,7 @@ authors:
 date-released: 2026-07-22
 license: MIT
 repository-code: "https://github.com/QEbellavita/eeg-affect-honest-negatives"
+doi: 10.5281/zenodo.21485330
 keywords:
   - eeg
   - affective-computing

@@ -2,7 +2,10 @@
   <img src="./assets/header.svg" alt="eeg-affect-honest-negatives — six pre-registered spikes, negative results reported as such" width="100%">
 </p>
 
-<p align="center"><a href="https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml"><img src="https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml/badge.svg" alt="tests"></a></p>
+<p align="center">
+  <a href="https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml"><img src="https://github.com/QEbellavita/eeg-affect-honest-negatives/actions/workflows/test.yml/badge.svg" alt="tests"></a>
+  <a href="https://doi.org/10.5281/zenodo.21485330"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.21485330.svg" alt="DOI"></a>
+</p>
 
 Can EEG predict how someone *felt* — their self-reported valence and arousal — for a person
 the model has never seen?
@@ -122,7 +125,9 @@ Regenerate them from the raw corpora you have licensed.
 ## Citing
 
 If you use these findings, cite via the repo's [CITATION.cff](CITATION.cff) (GitHub's "Cite
-this repository" button), or the Zenodo DOI once archived.
+this repository" button), or the Zenodo DOI,
+[10.5281/zenodo.21485330](https://doi.org/10.5281/zenodo.21485330) — a concept DOI that
+always resolves to the latest archived version.
 
 ## Licence
 
